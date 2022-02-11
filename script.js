@@ -22,7 +22,7 @@ function getFormattedNumber(num) {
   var value = n.toLocaleString("en");
   return value;
 }
-printOutput("5363536");
+// printOutput("5363536");
 function reverseNumberFormat(num) {
   return Number(num.replace(/,/g, ""));
 }
